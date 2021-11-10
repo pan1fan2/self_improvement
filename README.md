@@ -4,7 +4,7 @@ The repo contains learning materials for self imporvement.
 
 ##### [Project 1: Image classification using Pytorch via NN](https://github.com/pan1fan2/self_improvement/tree/main/project1)
 
-Builid a image classifier using Pytroch and to distiguish cat image from fishes but the model only applies simple neuro network
+Builid a image classifier using Pytroch and to classify cat and fish images but the current model only applies a simple neuro network
 
 ##### Project 2: Image classification using Pytorch via CNN
 
