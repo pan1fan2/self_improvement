@@ -14,7 +14,7 @@ CNN model vision of project 1
 
 Build a effective CNN model for image classification. 
 
-##### [Project 4 : Generative Adversarial Network (GAN) using Pytorch] (https://github.com/pan1fan2/self_improvement/tree/main/project4)
+##### [Project 4 : Generative Adversarial Network (GAN) using Pytorch](https://github.com/pan1fan2/self_improvement/tree/main/project4)
 
 Learn and test a simple GAN model on 
 
