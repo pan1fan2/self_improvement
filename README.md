@@ -2,7 +2,7 @@
 
 The repo contains codes for self imporvement. 
 
-##### Project 1: Image classification using Pytorch via NN
+##### [Project 1: Image classification using Pytorch via NN](https://github.com/pan1fan2/self_improvement/tree/main/project1)
 
 Builid a image classifier using Pytroch and to distiguish cat image from fishes but the model only applies simple neuro network
 
@@ -10,15 +10,11 @@ Builid a image classifier using Pytroch and to distiguish cat image from fishes 
 
 CNN model vision of project 1
 
-##### Project 3: Image classification using Tensorflow vis CNN+Transfer learning
+##### [Project 3: Image classification using Tensorflow vis CNN+Transfer learning](https://github.com/pan1fan2/self_improvement/tree/main/project3)
 
-Build a effective CNN model for image classification. The model adopts transfer learning approaches usesing features of a pre-trained network (VGG16) . 
+Build a effective CNN model for image classification. 
 
-The .py can be found in the [src](https://github.com/pan1fan2/self_improvement/tree/main/src) folder
-
-![](https://github.com/pan1fan2/self_improvement/blob/main/image/image_classification_data_directories.png)
-
-##### Project 4 : Generative Adversarial Network (GAN) using Pytorch
+##### [Project 4 : Generative Adversarial Network (GAN) using Pytorch] (https://github.com/pan1fan2/self_improvement/tree/main/project4)
 
 Learn and test a simple GAN model on 
 
