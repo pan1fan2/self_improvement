@@ -1,6 +1,6 @@
 # Teach myself on deep learning
 
-The repo contains codes for self imporvement. 
+The repo contains learning materials for self imporvement. 
 
 ##### [Project 1: Image classification using Pytorch via NN](https://github.com/pan1fan2/self_improvement/tree/main/project1)
 
