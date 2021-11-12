@@ -22,5 +22,5 @@ Learn and test a simple GAN model on Mnist
 
 The kaggle competition page can be found [here](https://www.kaggle.com/c/severstal-steel-defect-detection/overview)
 
-
+##### [Project 6 : Sentiment analysis on tweets](https://github.com/pan1fan2/self_improvement/tree/main/project6)
 
