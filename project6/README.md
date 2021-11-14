@@ -4,9 +4,10 @@ Project 6 : Sentiment analysis on tweets
 - Implement logistic regression
 - Implement baysian
 - Implement PCA to principal features
-- Implement LSTM using Pytorch on Dataset2
+- Implement LSTM using Pytorch on [Dataset2](http://help.sentiment140.com/for-students)
 
 
 [Dataset1](https://www.nltk.org/howto/twitter.html)
+
 [Dataset2](http://help.sentiment140.com/for-students)
 
