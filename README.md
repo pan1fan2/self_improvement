@@ -1,4 +1,6 @@
-# Teach myself on deep learning
+# Hands-on projects
+
+Practices on sql queries using [Mysql](https://github.com/pan1fan2/self_improvement/tree/main/Mysql)
 
 The repo contains learning materials for self imporvement. 
 
