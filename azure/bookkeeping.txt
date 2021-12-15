@@ -1,0 +1,12 @@
+Application (client) ID
+:
+7a07e426-473c-4bb6-879d-6f6f5b7aabd8
+
+
+Directory (tenant) ID
+:
+331ad9d8-f000-4337-a0da-48a96ed2764d
+
+secret value
+
+qaD7Q~GQvSZS14JLYTY2ST2HBuj8wmiyMGO64
