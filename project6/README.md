@@ -1,4 +1,4 @@
-Project 6 : Sentiment analysis on tweets 
+Project 6 : NLP applications
 
 - Extract features
 - Implement [logistic regression](https://github.com/pan1fan2/self_improvement/blob/main/project6/sentiment_lr.ipynb)
