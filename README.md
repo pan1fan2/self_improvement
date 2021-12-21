@@ -2,6 +2,10 @@
 
 Practices on sql queries using [Mysql](https://github.com/pan1fan2/self_improvement/tree/main/Mysql)
 
+Intermidiate [Python](https://github.com/pan1fan2/self_improvement/tree/main/python)
+
+Learning [OpenCV] to detect objects (https://github.com/pan1fan2/self_improvement/tree/main/opencv)
+
 The repo contains learning materials for self imporvement. 
 
 ##### [Project 1: Image classification using Pytorch via NN](https://github.com/pan1fan2/self_improvement/tree/main/project1)
@@ -24,5 +28,5 @@ Learn and test a simple GAN model on Mnist
 
 The kaggle competition page can be found [here](https://www.kaggle.com/c/severstal-steel-defect-detection/overview)
 
-##### [Project 6 : Sentiment analysis on tweets](https://github.com/pan1fan2/self_improvement/tree/main/project6)
+##### [Project 6 : NLP](https://github.com/pan1fan2/self_improvement/tree/main/project6)
 
