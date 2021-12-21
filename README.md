@@ -4,7 +4,7 @@ Practices on sql queries using [Mysql](https://github.com/pan1fan2/self_improvem
 
 Intermidiate [Python](https://github.com/pan1fan2/self_improvement/tree/main/python)
 
-Learning [OpenCV] to detect objects (https://github.com/pan1fan2/self_improvement/tree/main/opencv)
+Learning [OpenCV](https://github.com/pan1fan2/self_improvement/tree/main/opencv) on object detection 
 
 The repo contains learning materials for self imporvement. 
 
