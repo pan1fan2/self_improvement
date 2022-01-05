@@ -6,6 +6,8 @@ Intermidiate [Python](https://github.com/pan1fan2/self_improvement/tree/main/pyt
 
 Learning [OpenCV](https://github.com/pan1fan2/self_improvement/tree/main/opencv) on object detection 
 
+[Assignments](https://github.com/pan1fan2/self_improvement/tree/main/deeplearning_ai) from deep learning specializtion on Coursera  
+
 The repo contains learning materials for self imporvement. 
 
 ##### [Project 1: Image classification using Pytorch via NN](https://github.com/pan1fan2/self_improvement/tree/main/project1)
