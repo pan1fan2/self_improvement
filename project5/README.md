@@ -13,5 +13,15 @@ Files
 - train.csv - training annotations which provide segments for defects (ClassId = [1, 2, 3, 4])
 - sample_submission.csv - a sample submission file in the correct format; note, each ImageId 4 rows, one for each of the 4 defect classes
 
+Neu data: Trained with [YOLO](https://github.com/ultralytics/yolov5) 
 
+Files
 
+The dataset contains defects of 6 classes. (crazing','inclusion','patches','pitted_surface','rolled-in_scale','scratches')
+
+- train/ - folder contains training images and corresponding labels (~1700)
+- Valid/ - folder contains validation images and corresponding labels (~50)
+
+Results:
+
+![train_batch1](https://github.com/pan1fan2/self_improvement/blob/main/project5/train_batch0.jpg)
