@@ -239,6 +239,9 @@ if __name__ == '__main__':
                 gameFlag = False
             # Add a number two to the matrix
             addTwo()
+            if addTwo() == 'Game Over':
+                print("Can not add a new value")
+                gameFlag = False
             # display the new matrix
             show()
             # check if there is any available moves
