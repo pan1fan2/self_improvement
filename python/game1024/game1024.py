@@ -162,16 +162,16 @@ def addTwo():
 
     """
     rowNum = random.randint(0,matrixSize - 1)
-    rowNum = random.randint(0,matrixSize - 1)
-    # find an empty spot within 1000 trials
+    colNum = random.randint(0,matrixSize - 1)
+    # find an empty spot within 5000 trials
     count = 0
-    while not matrix[rowNum][rowNum] == 0:
+    while not matrix[rowNum][colNum] == 0:
         count += 1
         rowNum = random.randint(0,matrixSize - 1)
-        rowNum = random.randint(0,matrixSize - 1)
+        colNum = random.randint(0,matrixSize - 1)
         if count > 5000:
             return "Game Over"
-    matrix[rowNum][rowNum] = 2
+    matrix[rowNum][colNum] = 2
 
 def moveAvailability():
     """
@@ -239,9 +239,9 @@ if __name__ == '__main__':
                 gameFlag = False
             # Add a number two to the matrix
             addTwo()
-            if addTwo() == 'Game Over':
-                print("Can not add a new value, game over!")
-                gameFlag = False
+            # if addTwo() == 'Game Over':
+            #     print("Can not add a new value, game over!")
+            #     gameFlag = False
             # display the new matrix
             show()
             # check if there is any available moves
