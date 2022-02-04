@@ -62,13 +62,13 @@ def moveJoinLeft(row):
 
 def join_left(matrix_now):
     """
-    Operate on all rows if the matrix,  move and join the number to the left 
+    Operate on all rows of the matrix,  move and join the number to the left 
 
     Args:
         matrix_now ([list]): a list of lists
 
     Returns:
-        [list]: An Updated Matrix after join_left 
+        [list]: An updated matrix after join_left 
     """
     for i in range(matrixSize):
         matrix_now[i] = moveJoinLeft(matrix_now[i])
@@ -80,7 +80,7 @@ def reverse(row):
     Reverse the numbers of a single row 
 
     Args:
-        row ([list]): a list of numbers to represent each row in the matrix
+        row ([list]): a list of numbers to represent one row in the matrix
 
     Returns:
         [list]: reversed row
@@ -103,13 +103,13 @@ def transpose(matrix_now):
 
 def join_right(matrix_now):
     """
-    Operate on all rows if the matrix,  move and join the number to the right
+    Operate on all rows of the matrix,  move and join the number to the right
 
     Args:
         matrix_now ([list]): a list of lists
 
     Returns:
-        [list]: An Updated Matrix after join_right 
+        [list]: An updated matrix after join_right 
     """
     for i in range(matrixSize):
         matrix_now[i] = reverse(matrix_now[i])
@@ -119,13 +119,13 @@ def join_right(matrix_now):
 
 def join_up(matrix_now):
     """
-    Operate on all rows if the matrix,  move and join the number to the top
+    Operate on all rows of the matrix,  move and join the number to the top
 
     Args:
         matrix_now ([list]): a list of lists
 
     Returns:
-        [list]: An Updated Matrix after join_up
+        [list]: An updated matrix after join_up
     """
     matrix_now = transpose(matrix_now)
     matrix_now = join_left(matrix_now)
@@ -134,13 +134,13 @@ def join_up(matrix_now):
 
 def join_down(matrix_now):
     """
-    Operate on all rows if the matrix,  move and join the number to the bottom
+    Operate on all rows of the matrix,  move and join the number to the bottom
 
     Args:
         matrix_now ([list]): a list of lists
 
     Returns:
-        [list]: An Updated Matrix after join_down
+        [list]: An updated matrix after join_down
     """
     matrix_now = transpose(matrix_now)
     matrix_now = join_right(matrix_now)
@@ -175,7 +175,7 @@ def addTwo():
 
 def moveAvailability():
     """
-    Check if there is any available moves in the matrix
+    Check if there is any available move in the matrix
     """
     cp_matrix1 = copy.deepcopy(matrix)
     cp_matrix2 = copy.deepcopy(matrix)
@@ -205,7 +205,7 @@ if __name__ == '__main__':
             spotNum -= 1
     
     print(" Have fun with playing game 1024, try to join the numbers and get to the 1024 tiles\n")
-    print(""" You can join the numbers in 4 directions, please use the keymatrix and enter w to join up,a to join left, s to join down and d to join right\n""")
+    print(""" You can join the numbers in 4 directions, please use the keyboard and enter w to join up,a to join left, s to join down and d to join right\n""")
     # Display the initial matrix 
     show()
     # Create a flag to determin the status
@@ -228,7 +228,7 @@ if __name__ == '__main__':
         else:
             matrix = join_up(matrix)
 
-        # the updated matrix is identical to the matrix before the movement, then ask to try a different direction
+        # the updated matrix is identical to the matrix before the move, then ask to try a different direction
         if matrix == matrix_cp:
             print("Same as before, please try a new direction!")
         else:
@@ -240,7 +240,7 @@ if __name__ == '__main__':
             # Add a number two to the matrix
             addTwo()
             if addTwo() == 'Game Over':
-                print("Can not add a new value")
+                print("Can not add a new value, game over!")
                 gameFlag = False
             # display the new matrix
             show()
