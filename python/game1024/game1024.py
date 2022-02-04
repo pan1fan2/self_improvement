@@ -199,9 +199,9 @@ if __name__ == '__main__':
     spotNum = 2
     while spotNum > 0:
         rowNum = random.randint(0,matrixSize - 1)
-        rowNum = random.randint(0,matrixSize - 1)
-        if matrix[rowNum][rowNum] == 0 :
-            matrix[rowNum][rowNum] = 2
+        colNum = random.randint(0,matrixSize - 1)
+        if matrix[rowNum][colNum] == 0 :
+            matrix[rowNum][colNum] = 2
             spotNum -= 1
     
     print(" Have fun with playing game 1024, try to join the numbers and get to the 1024 tiles\n")
@@ -239,9 +239,9 @@ if __name__ == '__main__':
                 gameFlag = False
             # Add a number two to the matrix
             addTwo()
-            # if addTwo() == 'Game Over':
-            #     print("Can not add a new value, game over!")
-            #     gameFlag = False
+            if addTwo() == 'Game Over':
+                print("Can not add a new value, game over!")
+                gameFlag = False
             # display the new matrix
             show()
             # check if there is any available moves
