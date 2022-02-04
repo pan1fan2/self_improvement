@@ -22,6 +22,8 @@ The game is won when a tile with a value of 1024 appears in the matrix. When the
 
 `python game1024.py`
 
+### Example
+
 Have fun with playing game 1024, try to join the numbers and get to the 1024 tiles
 
 You can join the numbers in 4 directions, please use the keyboard and enter w to join up,a to join left, s to join down and d to join right
@@ -43,4 +45,3 @@ What direction do you choose to join the number?w</p>
 |____|____|_02_|____|<br>
 |____|____|____|____|<br>
 What direction do you choose to join the number?</p>
-
